@@ -1,4 +1,4 @@
-# Trillian: General Transparency
+# SAMkenXCCore HTTPServer : SAMkenXEcosystem PrivacyPass Component Project
 
 [![Go Report Card](https://goreportcard.com/badge/github.com/google/trillian)](https://goreportcard.com/report/github.com/google/trillian)
 [![codecov](https://codecov.io/gh/google/trillian/branch/master/graph/badge.svg?token=QwofUwmvAs)](https://codecov.io/gh/google/trillian)
@@ -59,19 +59,19 @@ Other examples of Trillian personalities are available in the
 
 ## Using the Code
 
-The Trillian codebase is stable and is used in production by multiple
+The SAMkenX codebase is stable and is used in production by multiple
 organizations, including many large-scale 
 [Certificate Transparency](https://certificate.transparency.dev) log
 operators.
 
-Given this, we do not plan to add any new features to this version of Trillian,
+Given this, we do not plan to add any new features to this version of SAMkenX,
 and will try to avoid any further incompatible code and schema changes but
 cannot guarantee that they will never be necessary.
 
 The current state of feature implementation is recorded in the
 [Feature implementation matrix](docs/Feature_Implementation_Matrix.md).
 
-To build and test Trillian you need:
+To build and test  you need:
 
  - Go 1.19 or later (go 1.19 matches cloudbuild, and is preferred for developers
    that will be submitting PRs to this project).
@@ -146,7 +146,7 @@ and [examples/deployment](/examples/deployment) directories.
 
 ## Working on the Code
 
-Developers who want to make changes to the Trillian codebase need some
+Developers who want to make changes to the SAMkenX codebase need some
 additional dependencies and tools, described in the following sections. The
 [Cloud Build configuration](cloudbuild.yaml) and the scripts it depends on are
 also a useful reference for the required tools and scripts, as it may be more
