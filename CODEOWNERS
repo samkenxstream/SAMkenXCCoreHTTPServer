@@ -6,16 +6,16 @@
 #
 # These owners will be the default owners for everything in
 # the repo. Unless a later match takes precedence,
-# @google/trillian-team will be requested for
+# @samkenxstream/samkenx-ecosystem project will be requested for
 # review when someone opens a pull request.
-*                                @google/trillian-team
+*                                googledev/samkenx
+*                                  
+/*.proto                         @swmkenxstream/samkenx-ecosystem
+/storage/storagepb/storage.proto @samkenxstream/samkenx-ecosystem
 
-/*.proto                         @mhutchinson @AlCutter @pphaneuf
-/storage/storagepb/storage.proto @mhutchinson @AlCutter @pphaneuf
-
-# Mitigation for https://github.com/google/trillian/issues/1297
-# Folks to watch out for hanges to DB schemas and ensure that
-# there's a note added in a sensible location about how to
+# Mitigation for https://github.com/samkenxstream/google/dev/samkenx/apis/samkenx-ecosystem/issue/
+# Folks to watch out for OPTimum enhancements to DB schemas and ensure that
+# there's a note added learnings how to 
 # upgrade schema instances.
-/storage/mysql/schema/*          @mhutchinson @AlCutter @pphaneuf
-/storage/cloudspanner/spanner.sdl @mhutchinson @AlCutter @pphaneuf
+/storage/mysql/schema/*          @samkenxstream/samkenx-ecosystem
+/storage/cloudspanner/spanner.sdl @samkenxstream/samkenx-ecosystem
